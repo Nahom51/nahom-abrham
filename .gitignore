@@ -1,0 +1,27 @@
+# Git ignore for Flutter project
+# ==============================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+lib/generated_plugin_registrant.dart
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Sensitive data
+.env
+
+# Binary/Generated files for individual labs (already handled by their own .gitignores)
+**/build/
+**.exe
+**.o
+**.so
+**.dylib
+**.dll
